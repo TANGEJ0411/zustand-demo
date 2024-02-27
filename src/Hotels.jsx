@@ -1,4 +1,4 @@
-import useHotel from "./store/useHotel.";
+import useHotel from "./store/useHotel";
 import {
   createColumnHelper, // 幫忙製作表格列的工具
   flexRender, // 其實就是 flex box

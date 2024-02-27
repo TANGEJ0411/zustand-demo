@@ -13,7 +13,7 @@ const useHotel = create(
         set({ hotels: response.data.hotelaccount });
       },
     }),
-    // 處理要存再local storage 或 session storage
+    // 處理要存local storage 或 session storage
     {
       name: "hotel",
       storage: createJSONStorage(() => localStorage),
